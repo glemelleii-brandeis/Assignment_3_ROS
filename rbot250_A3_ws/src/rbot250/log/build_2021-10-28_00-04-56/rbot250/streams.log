@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250 -- -j4 -l4
+[0.039s] [35m[1mScanning dependencies of target rbot250_tf_broadcaster[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/rbot250_tf_broadcaster.dir/src/rbot250_tf2_broadcaster.cpp.o[0m
+[2.884s] [100%] [32m[1mLinking CXX executable rbot250_tf_broadcaster[0m
+[3.084s] [100%] Built target rbot250_tf_broadcaster
+[3.091s] Invoked command in '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250 -- -j4 -l4
+[3.115s] Invoking command in '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250
+[3.120s] -- Install configuration: ""
+[3.121s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/lib/rbot250/rbot250_tf_broadcaster
+[3.121s] -- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/lib/rbot250/rbot250_tf_broadcaster" to ""
+[3.121s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/ament_index/resource_index/package_run_dependencies/rbot250
+[3.121s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/ament_index/resource_index/parent_prefix_path/rbot250
+[3.121s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/environment/ament_prefix_path.sh
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/environment/ament_prefix_path.dsv
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/environment/path.sh
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/environment/path.dsv
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/local_setup.bash
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/local_setup.sh
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/local_setup.zsh
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/local_setup.dsv
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/package.dsv
+[3.122s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/ament_index/resource_index/packages/rbot250
+[3.123s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/cmake/rbot250Config.cmake
+[3.123s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/cmake/rbot250Config-version.cmake
+[3.123s] -- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/install/rbot250/share/rbot250/package.xml
+[3.125s] Invoked command in '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/build/rbot250

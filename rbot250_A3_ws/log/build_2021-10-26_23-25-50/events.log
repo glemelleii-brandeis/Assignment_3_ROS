@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000148] (rbot250) JobQueued: {'identifier': 'rbot250', 'dependencies': OrderedDict()}
+[0.000184] (rbot250) JobStarted: {'identifier': 'rbot250'}
+[0.008163] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'cmake'}
+[0.008981] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'build'}
+[0.009022] (rbot250) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250', '--', '-j4', '-l4'], 'cwd': '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'starmaninja'), ('SSH_AGENT_PID', '1259'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/starmaninja'), ('OLDPWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1036'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/starmaninja/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'starmaninja'), ('JOURNAL_STREAM', '8:31977'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starmaninja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/home/starmaninja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/starmaninja/.local/bin'), ('SESSION_MANAGER', 'local/starmaninja-VirtualBox:@/tmp/.ICE-unix/1313,unix/starmaninja-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '89f8e4eb9f6946ba9c68579b8ca5ee0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4234e1c1_96a3_4af7_a7b0_917914a3eae8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim:/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim:/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250:/opt/ros/rolling')]), 'shell': False}
+[0.029391] (rbot250) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.045904] (rbot250) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.091404] (rbot250) StdoutLine: {'line': b'-- Found geometry_msgs: 3.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[0.099161] (-) TimerEvent: {}
+[0.112628] (rbot250) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.117339] (rbot250) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.5.0 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.149333] (rbot250) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199298] (-) TimerEvent: {}
+[0.217538] (rbot250) StdoutLine: {'line': b'-- Found rclcpp: 13.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.255869] (rbot250) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.0.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.257837] (rbot250) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.24.0 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.272855] (rbot250) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.273738] (rbot250) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.299413] (-) TimerEvent: {}
+[0.321513] (rbot250) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.321917] (rbot250) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.373371] (rbot250) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.373609] (rbot250) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.399535] (-) TimerEvent: {}
+[0.409514] (rbot250) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.409876] (rbot250) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.462275] (rbot250) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.462829] (rbot250) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.499674] (-) TimerEvent: {}
+[0.573471] (rbot250) StdoutLine: {'line': b'-- Found rclpy: 3.0.1 (/opt/ros/rolling/share/rclpy/cmake)\n'}
+[0.575607] (rbot250) StdoutLine: {'line': b'-- Found sensor_msgs: 3.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[0.599787] (-) TimerEvent: {}
+[0.643544] (rbot250) StdoutLine: {'line': b'-- Found trajectory_msgs: 3.0.0 (/opt/ros/rolling/share/trajectory_msgs/cmake)\n'}
+[0.699918] (-) TimerEvent: {}
+[0.710051] (rbot250) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (target_include_directories):\n'}
+[0.710170] (rbot250) StderrLine: {'line': b'  Cannot specify include directories for target "assignment_3" which is not\n'}
+[0.710379] (rbot250) StderrLine: {'line': b'  built by this project.\n'}
+[0.710436] (rbot250) StderrLine: {'line': b'\n'}
+[0.710486] (rbot250) StderrLine: {'line': b'\n'}
+[0.710534] (rbot250) StderrLine: {'line': b'CMake Error at CMakeLists.txt:26 (target_compile_features):\n'}
+[0.710583] (rbot250) StderrLine: {'line': b'  Cannot specify compile features for target "assignment_3" which is not\n'}
+[0.710631] (rbot250) StderrLine: {'line': b'  built by this project.\n'}
+[0.710678] (rbot250) StderrLine: {'line': b'\n'}
+[0.710724] (rbot250) StderrLine: {'line': b'\n'}
+[0.753789] (rbot250) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.753923] (rbot250) StdoutLine: {'line': b'See also "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250/CMakeFiles/CMakeOutput.log".\n'}
+[0.753996] (rbot250) StdoutLine: {'line': b'See also "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250/CMakeFiles/CMakeError.log".\n'}
+[0.757453] (rbot250) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[0.758680] (rbot250) CommandEnded: {'returncode': 2}
+[0.784458] (rbot250) JobEnded: {'identifier': 'rbot250', 'rc': 2}
+[0.795463] (-) EventReactorShutdown: {}

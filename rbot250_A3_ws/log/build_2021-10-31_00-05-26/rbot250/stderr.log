@@ -1,0 +1,10 @@
+CMake Error at /opt/ros/rolling/share/ament_cmake_python/cmake/ament_python_install_package.cmake:59 (message):
+  ament_python_install_package() the Python package folder
+  '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/rbot250/rbot250'
+  doesn't contain an '__init__.py' file
+Call Stack (most recent call first):
+  /opt/ros/rolling/share/ament_cmake_python/cmake/ament_python_install_package.cmake:33 (_ament_cmake_python_install_package)
+  CMakeLists.txt:33 (ament_python_install_package)
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

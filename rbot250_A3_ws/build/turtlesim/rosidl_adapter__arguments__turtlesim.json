@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

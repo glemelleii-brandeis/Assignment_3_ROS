@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000855] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000887] (rbot250) JobQueued: {'identifier': 'rbot250', 'dependencies': OrderedDict()}
+[0.000911] (rbot250) JobStarted: {'identifier': 'rbot250'}
+[0.008103] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'cmake'}
+[0.008975] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'build'}
+[0.009017] (rbot250) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250', '--', '-j4', '-l4'], 'cwd': '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'starmaninja'), ('SSH_AGENT_PID', '1259'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/starmaninja'), ('OLDPWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1036'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/starmaninja/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'starmaninja'), ('JOURNAL_STREAM', '8:31977'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starmaninja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/home/starmaninja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/starmaninja/.local/bin'), ('SESSION_MANAGER', 'local/starmaninja-VirtualBox:@/tmp/.ICE-unix/1313,unix/starmaninja-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '89f8e4eb9f6946ba9c68579b8ca5ee0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4234e1c1_96a3_4af7_a7b0_917914a3eae8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim:/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim:/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250:/opt/ros/rolling')]), 'shell': False}
+[0.029210] (rbot250) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.044948] (rbot250) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.087811] (rbot250) StdoutLine: {'line': b'-- Found geometry_msgs: 3.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[0.099632] (-) TimerEvent: {}
+[0.103323] (rbot250) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.105805] (rbot250) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.5.0 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.131726] (rbot250) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.197941] (rbot250) StdoutLine: {'line': b'-- Found rclcpp: 13.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.199789] (-) TimerEvent: {}
+[0.230027] (rbot250) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.0.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.231331] (rbot250) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.24.0 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.245872] (rbot250) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.299946] (-) TimerEvent: {}
+[0.352644] (rbot250) StdoutLine: {'line': b'-- Found rclpy: 3.0.1 (/opt/ros/rolling/share/rclpy/cmake)\n'}
+[0.352893] (rbot250) StdoutLine: {'line': b'-- Found sensor_msgs: 3.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[0.400562] (-) TimerEvent: {}
+[0.412264] (rbot250) StdoutLine: {'line': b'-- Found trajectory_msgs: 3.0.0 (/opt/ros/rolling/share/trajectory_msgs/cmake)\n'}
+[0.500720] (-) TimerEvent: {}
+[0.513966] (rbot250) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.521811] (rbot250) StdoutLine: {'line': b'-- Generating done\n'}
+[0.523299] (rbot250) StdoutLine: {'line': b'-- Build files have been written to: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250\n'}
+[0.539612] (rbot250) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.539748] (rbot250) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target t_publisher\x1b[0m\n'}
+[0.564714] (rbot250) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/t_publisher.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.564863] (rbot250) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.608894] (-) TimerEvent: {}
+[0.711476] (-) TimerEvent: {}
+[0.812709] (-) TimerEvent: {}
+[0.913346] (-) TimerEvent: {}
+[1.013616] (-) TimerEvent: {}
+[1.113896] (-) TimerEvent: {}
+[1.214172] (-) TimerEvent: {}
+[1.314452] (-) TimerEvent: {}
+[1.414762] (-) TimerEvent: {}
+[1.514989] (-) TimerEvent: {}
+[1.615272] (-) TimerEvent: {}
+[1.715551] (-) TimerEvent: {}
+[1.815886] (-) TimerEvent: {}
+[1.916125] (-) TimerEvent: {}
+[2.016377] (-) TimerEvent: {}
+[2.116674] (-) TimerEvent: {}
+[2.217255] (-) TimerEvent: {}
+[2.317544] (-) TimerEvent: {}
+[2.417784] (-) TimerEvent: {}
+[2.518032] (-) TimerEvent: {}
+[2.618280] (-) TimerEvent: {}
+[2.718538] (-) TimerEvent: {}
+[2.818892] (-) TimerEvent: {}
+[2.919174] (-) TimerEvent: {}
+[3.019405] (-) TimerEvent: {}
+[3.119677] (-) TimerEvent: {}
+[3.219970] (-) TimerEvent: {}
+[3.320295] (-) TimerEvent: {}
+[3.420542] (-) TimerEvent: {}
+[3.520981] (-) TimerEvent: {}
+[3.613113] (rbot250) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable t_publisher\x1b[0m\n'}
+[3.621195] (-) TimerEvent: {}
+[3.721566] (-) TimerEvent: {}
+[3.737157] (rbot250) StdoutLine: {'line': b'[ 75%] Built target t_publisher\n'}
+[3.821614] (-) TimerEvent: {}
+[3.922149] (-) TimerEvent: {}
+[4.022751] (-) TimerEvent: {}
+[4.123123] (-) TimerEvent: {}
+[4.223748] (-) TimerEvent: {}
+[4.324076] (-) TimerEvent: {}
+[4.424605] (-) TimerEvent: {}
+[4.525024] (-) TimerEvent: {}
+[4.625786] (-) TimerEvent: {}
+[4.726220] (-) TimerEvent: {}
+[4.826535] (-) TimerEvent: {}
+[4.927213] (-) TimerEvent: {}
+[5.027496] (-) TimerEvent: {}
+[5.127927] (-) TimerEvent: {}
+[5.228619] (-) TimerEvent: {}
+[5.329560] (-) TimerEvent: {}
+[5.430561] (-) TimerEvent: {}
+[5.530822] (-) TimerEvent: {}
+[5.631181] (-) TimerEvent: {}
+[5.731585] (-) TimerEvent: {}
+[5.831871] (-) TimerEvent: {}
+[5.932346] (-) TimerEvent: {}
+[6.032696] (-) TimerEvent: {}
+[6.133019] (-) TimerEvent: {}
+[6.233523] (-) TimerEvent: {}
+[6.333829] (-) TimerEvent: {}
+[6.434113] (-) TimerEvent: {}
+[6.469547] (rbot250) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.536205] (-) TimerEvent: {}
+[6.636514] (-) TimerEvent: {}
+[6.707500] (rbot250) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.714641] (rbot250) CommandEnded: {'returncode': 0}
+[6.734395] (rbot250) JobProgress: {'identifier': 'rbot250', 'progress': 'install'}
+[6.736672] (-) TimerEvent: {}
+[6.741782] (rbot250) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250'], 'cwd': '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'starmaninja'), ('SSH_AGENT_PID', '1259'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/starmaninja'), ('OLDPWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1036'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/starmaninja/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'starmaninja'), ('JOURNAL_STREAM', '8:31977'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starmaninja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/home/starmaninja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/starmaninja/.local/bin'), ('SESSION_MANAGER', 'local/starmaninja-VirtualBox:@/tmp/.ICE-unix/1313,unix/starmaninja-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '89f8e4eb9f6946ba9c68579b8ca5ee0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4234e1c1_96a3_4af7_a7b0_917914a3eae8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim:/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim:/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250:/opt/ros/rolling')]), 'shell': False}
+[6.748451] (rbot250) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.748580] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/lib/rbot250/t_publisher\n'}
+[6.749321] (rbot250) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/lib/rbot250/t_publisher" to ""\n'}
+[6.749436] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/lib/rbot250/listener\n'}
+[6.751854] (rbot250) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/lib/rbot250/listener" to ""\n'}
+[6.751964] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/ament_index/resource_index/package_run_dependencies/rbot250\n'}
+[6.752342] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/ament_index/resource_index/parent_prefix_path/rbot250\n'}
+[6.752822] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.sh\n'}
+[6.752921] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/environment/ament_prefix_path.dsv\n'}
+[6.753308] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/environment/path.sh\n'}
+[6.753403] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/environment/path.dsv\n'}
+[6.753835] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/local_setup.bash\n'}
+[6.753944] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/local_setup.sh\n'}
+[6.754037] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/local_setup.zsh\n'}
+[6.754112] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/local_setup.dsv\n'}
+[6.754385] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/package.dsv\n'}
+[6.754529] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/ament_index/resource_index/packages/rbot250\n'}
+[6.754636] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/cmake/rbot250Config.cmake\n'}
+[6.754766] (rbot250) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/cmake/rbot250Config-version.cmake\n'}
+[6.754832] (rbot250) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/rbot250/share/rbot250/package.xml\n'}
+[6.756943] (rbot250) CommandEnded: {'returncode': 0}
+[6.789566] (rbot250) JobEnded: {'identifier': 'rbot250', 'rc': 0}
+[6.790199] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+CMake Error at CMakeLists.txt:23 (target_include_directories):
+  Cannot specify include directories for target "assignment_3" which is not
+  built by this project.
+
+
+CMake Error at CMakeLists.txt:26 (target_compile_features):
+  Cannot specify compile features for target "assignment_3" which is not
+  built by this project.
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

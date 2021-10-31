@@ -1,0 +1,743 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000280] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.008063] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.008299] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim'], 'cwd': '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'starmaninja'), ('SSH_AGENT_PID', '1259'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/starmaninja'), ('OLDPWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1036'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/starmaninja/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'starmaninja'), ('JOURNAL_STREAM', '8:31977'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starmaninja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/home/starmaninja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/starmaninja/.local/bin'), ('SESSION_MANAGER', 'local/starmaninja-VirtualBox:@/tmp/.ICE-unix/1313,unix/starmaninja-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '89f8e4eb9f6946ba9c68579b8ca5ee0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6f0a8bc_902e_459f_a67e_0bb97ea46f65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.055041] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.094098] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.097215] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099679] (-) TimerEvent: {}
+[0.144747] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.145391] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.190132] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.200014] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.200114] (-) TimerEvent: {}
+[0.200193] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.201343] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.257037] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.257777] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300586] (-) TimerEvent: {}
+[0.312101] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.320414] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.320790] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.322351] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.338963] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.339096] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.390660] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.3.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)\n'}
+[0.394440] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 3.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[0.400722] (-) TimerEvent: {}
+[0.414925] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.419097] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.5.0 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.449664] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501048] (-) TimerEvent: {}
+[0.542081] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 13.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.577094] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.0.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.578815] (turtlesim) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.24.0 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.593523] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.594156] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.601189] (-) TimerEvent: {}
+[0.645773] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.646163] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.695761] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.696005] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.701291] (-) TimerEvent: {}
+[0.735417] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.735668] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.784023] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.784780] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.801336] (-) TimerEvent: {}
+[0.894775] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 13.0.0 (/opt/ros/rolling/share/rclcpp_action/cmake)\n'}
+[0.901484] (-) TimerEvent: {}
+[0.958002] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[0.970998] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 3.0.0 (/opt/ros/rolling/share/std_srvs/cmake)\n'}
+[0.999577] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.001615] (-) TimerEvent: {}
+[1.101868] (-) TimerEvent: {}
+[1.143981] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/rolling/share/ament_cmake_ros/cmake)\n'}
+[1.192850] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201963] (-) TimerEvent: {}
+[1.215774] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.234940] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.237153] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[1.260820] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.261085] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.261178] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.261234] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.276044] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.302105] (-) TimerEvent: {}
+[1.329860] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.402215] (-) TimerEvent: {}
+[1.403252] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.406259] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim\n'}
+[1.412176] (turtlesim) CommandEnded: {'returncode': 0}
+[1.412658] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.414113] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'starmaninja'), ('SSH_AGENT_PID', '1259'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/starmaninja'), ('OLDPWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1036'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/starmaninja/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'starmaninja'), ('JOURNAL_STREAM', '8:31977'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starmaninja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/home/starmaninja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/starmaninja/.local/bin'), ('SESSION_MANAGER', 'local/starmaninja-VirtualBox:@/tmp/.ICE-unix/1313,unix/starmaninja-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '89f8e4eb9f6946ba9c68579b8ca5ee0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6f0a8bc_902e_459f_a67e_0bb97ea46f65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[1.445520] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.446428] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__cpp\x1b[0m\n'}
+[1.446538] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_symlink_turtlesim\x1b[0m\n'}
+[1.453318] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.459415] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_turtlesim\n'}
+[1.466147] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_build_turtlesim_egg\x1b[0m\n'}
+[1.502350] (-) TimerEvent: {}
+[1.602636] (-) TimerEvent: {}
+[1.648830] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.648957] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[1.649015] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.649067] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.649119] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.649194] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.673171] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.673506] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.693960] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.703393] (-) TimerEvent: {}
+[1.803657] (-) TimerEvent: {}
+[1.903923] (-) TimerEvent: {}
+[2.004218] (-) TimerEvent: {}
+[2.112100] (-) TimerEvent: {}
+[2.211330] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[2.212235] (-) TimerEvent: {}
+[2.217306] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[2.232206] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.232338] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.232396] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.237089] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[2.307345] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[2.312329] (-) TimerEvent: {}
+[2.335077] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[2.363216] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[2.412520] (-) TimerEvent: {}
+[2.432854] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[2.498362] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[2.512620] (-) TimerEvent: {}
+[2.612870] (-) TimerEvent: {}
+[2.626952] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[2.683504] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[2.703846] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.713124] (-) TimerEvent: {}
+[2.720663] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.726333] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[2.769303] (turtlesim) StdoutLine: {'line': b'[ 15%] Built target turtlesim__rosidl_generator_c\n'}
+[2.775476] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[2.807116] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.813219] (-) TimerEvent: {}
+[2.879588] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[2.918615] (-) TimerEvent: {}
+[3.018878] (-) TimerEvent: {}
+[3.022766] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.119007] (-) TimerEvent: {}
+[3.128001] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.143052] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.166472] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.219129] (-) TimerEvent: {}
+[3.270977] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.319241] (-) TimerEvent: {}
+[3.321758] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[3.357262] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.419355] (-) TimerEvent: {}
+[3.484670] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.519485] (-) TimerEvent: {}
+[3.521961] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[3.565460] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.619590] (-) TimerEvent: {}
+[3.659178] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[3.710785] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.719704] (-) TimerEvent: {}
+[3.723581] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[3.767935] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.797243] (turtlesim) StdoutLine: {'line': b'[ 30%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[3.804308] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.819860] (-) TimerEvent: {}
+[3.925606] (-) TimerEvent: {}
+[3.961356] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.981226] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[4.025719] (-) TimerEvent: {}
+[4.126007] (-) TimerEvent: {}
+[4.137537] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[4.165909] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.217585] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.222987] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[4.226103] (-) TimerEvent: {}
+[4.244426] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[4.277954] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[4.302472] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.316580] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[4.324175] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.326181] (-) TimerEvent: {}
+[4.345713] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.367456] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[4.396548] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.426337] (-) TimerEvent: {}
+[4.434315] (turtlesim) StdoutLine: {'line': b'[ 44%] Built target turtlesim__rosidl_typesupport_c\n'}
+[4.438141] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.438948] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_teleop_key\x1b[0m\n'}
+[4.479766] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[4.485049] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.506099] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[4.526448] (-) TimerEvent: {}
+[4.561668] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[4.626604] (-) TimerEvent: {}
+[4.631963] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.655542] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[4.676074] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[4.722914] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[4.726703] (-) TimerEvent: {}
+[4.772528] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[4.803428] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[4.826825] (-) TimerEvent: {}
+[4.830217] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[4.851685] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[4.885023] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.913627] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.921956] (turtlesim) StdoutLine: {'line': b'[ 58%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[4.927135] (-) TimerEvent: {}
+[4.943656] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[4.960748] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.978249] (turtlesim) StdoutLine: {'line': b'[ 60%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[4.985785] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.027277] (-) TimerEvent: {}
+[5.060164] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim_node\x1b[0m\n'}
+[5.127794] (-) TimerEvent: {}
+[5.218588] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[5.228024] (-) TimerEvent: {}
+[5.328849] (-) TimerEvent: {}
+[5.370153] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[5.428976] (-) TimerEvent: {}
+[5.529252] (-) TimerEvent: {}
+[5.555313] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[5.629404] (-) TimerEvent: {}
+[5.715587] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.729513] (-) TimerEvent: {}
+[5.778440] (turtlesim) StdoutLine: {'line': b'[ 65%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[5.785591] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mimic\x1b[0m\n'}
+[5.830127] (-) TimerEvent: {}
+[5.900154] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[5.932256] (-) TimerEvent: {}
+[6.032542] (-) TimerEvent: {}
+[6.132754] (-) TimerEvent: {}
+[6.233452] (-) TimerEvent: {}
+[6.334200] (-) TimerEvent: {}
+[6.434498] (-) TimerEvent: {}
+[6.534776] (-) TimerEvent: {}
+[6.635707] (-) TimerEvent: {}
+[6.736235] (-) TimerEvent: {}
+[6.840343] (-) TimerEvent: {}
+[6.940652] (-) TimerEvent: {}
+[7.040903] (-) TimerEvent: {}
+[7.141162] (-) TimerEvent: {}
+[7.241450] (-) TimerEvent: {}
+[7.341715] (-) TimerEvent: {}
+[7.441983] (-) TimerEvent: {}
+[7.542296] (-) TimerEvent: {}
+[7.642614] (-) TimerEvent: {}
+[7.742892] (-) TimerEvent: {}
+[7.843158] (-) TimerEvent: {}
+[7.943416] (-) TimerEvent: {}
+[8.043670] (-) TimerEvent: {}
+[8.143926] (-) TimerEvent: {}
+[8.244223] (-) TimerEvent: {}
+[8.344885] (-) TimerEvent: {}
+[8.445130] (-) TimerEvent: {}
+[8.545391] (-) TimerEvent: {}
+[8.652035] (-) TimerEvent: {}
+[8.752836] (-) TimerEvent: {}
+[8.853078] (-) TimerEvent: {}
+[8.884004] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[8.953181] (-) TimerEvent: {}
+[9.053805] (-) TimerEvent: {}
+[9.154337] (-) TimerEvent: {}
+[9.254593] (-) TimerEvent: {}
+[9.355007] (-) TimerEvent: {}
+[9.432822] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[9.455874] (-) TimerEvent: {}
+[9.556251] (-) TimerEvent: {}
+[9.656728] (-) TimerEvent: {}
+[9.676577] (turtlesim) StdoutLine: {'line': b'[ 68%] Built target turtle_teleop_key\n'}
+[9.684834] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target draw_square\x1b[0m\n'}
+[9.717616] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[9.756843] (-) TimerEvent: {}
+[9.857252] (-) TimerEvent: {}
+[9.957605] (-) TimerEvent: {}
+[10.057939] (-) TimerEvent: {}
+[10.158304] (-) TimerEvent: {}
+[10.258666] (-) TimerEvent: {}
+[10.359036] (-) TimerEvent: {}
+[10.459369] (-) TimerEvent: {}
+[10.559710] (-) TimerEvent: {}
+[10.660016] (-) TimerEvent: {}
+[10.761363] (-) TimerEvent: {}
+[10.861709] (-) TimerEvent: {}
+[10.962044] (-) TimerEvent: {}
+[11.062613] (-) TimerEvent: {}
+[11.162960] (-) TimerEvent: {}
+[11.263308] (-) TimerEvent: {}
+[11.363715] (-) TimerEvent: {}
+[11.464049] (-) TimerEvent: {}
+[11.564446] (-) TimerEvent: {}
+[11.664771] (-) TimerEvent: {}
+[11.765090] (-) TimerEvent: {}
+[11.865428] (-) TimerEvent: {}
+[11.966002] (-) TimerEvent: {}
+[12.066314] (-) TimerEvent: {}
+[12.166657] (-) TimerEvent: {}
+[12.266978] (-) TimerEvent: {}
+[12.367321] (-) TimerEvent: {}
+[12.467708] (-) TimerEvent: {}
+[12.568131] (-) TimerEvent: {}
+[12.668479] (-) TimerEvent: {}
+[12.768897] (-) TimerEvent: {}
+[12.869247] (-) TimerEvent: {}
+[12.886251] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[12.969366] (-) TimerEvent: {}
+[13.069704] (-) TimerEvent: {}
+[13.170013] (-) TimerEvent: {}
+[13.171677] (turtlesim) StdoutLine: {'line': b'[ 70%] Built target mimic\n'}
+[13.180861] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.270127] (-) TimerEvent: {}
+[13.370433] (-) TimerEvent: {}
+[13.470756] (-) TimerEvent: {}
+[13.571100] (-) TimerEvent: {}
+[13.671401] (-) TimerEvent: {}
+[13.771729] (-) TimerEvent: {}
+[13.872158] (-) TimerEvent: {}
+[13.903736] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.930691] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[13.972267] (-) TimerEvent: {}
+[14.072573] (-) TimerEvent: {}
+[14.172930] (-) TimerEvent: {}
+[14.267256] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[14.273034] (-) TimerEvent: {}
+[14.373343] (-) TimerEvent: {}
+[14.473695] (-) TimerEvent: {}
+[14.519699] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[14.573798] (-) TimerEvent: {}
+[14.674127] (-) TimerEvent: {}
+[14.766205] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[14.774238] (-) TimerEvent: {}
+[14.874556] (-) TimerEvent: {}
+[14.974876] (-) TimerEvent: {}
+[15.028091] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[15.074992] (-) TimerEvent: {}
+[15.175259] (-) TimerEvent: {}
+[15.275593] (-) TimerEvent: {}
+[15.287357] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[15.375695] (-) TimerEvent: {}
+[15.475962] (-) TimerEvent: {}
+[15.560650] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[15.576043] (-) TimerEvent: {}
+[15.676296] (-) TimerEvent: {}
+[15.688193] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[15.776711] (-) TimerEvent: {}
+[15.825660] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[15.876844] (-) TimerEvent: {}
+[15.977099] (-) TimerEvent: {}
+[16.077352] (-) TimerEvent: {}
+[16.097296] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.156346] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[16.163054] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim\x1b[0m\n'}
+[16.170250] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target turtlesim\n'}
+[16.177463] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__py\x1b[0m\n'}
+[16.177609] (-) TimerEvent: {}
+[16.188077] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.277716] (-) TimerEvent: {}
+[16.377967] (-) TimerEvent: {}
+[16.478225] (-) TimerEvent: {}
+[16.578458] (-) TimerEvent: {}
+[16.678685] (-) TimerEvent: {}
+[16.778973] (-) TimerEvent: {}
+[16.879249] (-) TimerEvent: {}
+[16.954603] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[16.979369] (-) TimerEvent: {}
+[17.079776] (-) TimerEvent: {}
+[17.180234] (-) TimerEvent: {}
+[17.280472] (-) TimerEvent: {}
+[17.295515] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target draw_square\n'}
+[17.380614] (-) TimerEvent: {}
+[17.480944] (-) TimerEvent: {}
+[17.581186] (-) TimerEvent: {}
+[17.646388] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim__py\n'}
+[17.653400] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__python\x1b[0m\n'}
+[17.681299] (-) TimerEvent: {}
+[17.712389] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[17.718332] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[17.781413] (-) TimerEvent: {}
+[17.789379] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[17.875334] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[17.881486] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[17.881607] (-) TimerEvent: {}
+[17.953728] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[17.981755] (-) TimerEvent: {}
+[17.985546] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[18.031109] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__python.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[18.081875] (-) TimerEvent: {}
+[18.097109] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__python.so\x1b[0m\n'}
+[18.129720] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__python\n'}
+[18.138525] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[18.138703] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.138822] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.155984] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.156130] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.156668] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.181985] (-) TimerEvent: {}
+[18.260650] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.265549] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.282097] (-) TimerEvent: {}
+[18.294356] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[18.294809] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.313391] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.343053] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[18.382234] (-) TimerEvent: {}
+[18.482802] (-) TimerEvent: {}
+[18.583119] (-) TimerEvent: {}
+[18.683331] (-) TimerEvent: {}
+[18.783854] (-) TimerEvent: {}
+[18.884086] (-) TimerEvent: {}
+[18.940691] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[18.984309] (-) TimerEvent: {}
+[19.084800] (-) TimerEvent: {}
+[19.185354] (-) TimerEvent: {}
+[19.285880] (-) TimerEvent: {}
+[19.386397] (-) TimerEvent: {}
+[19.486921] (-) TimerEvent: {}
+[19.587468] (-) TimerEvent: {}
+[19.687952] (-) TimerEvent: {}
+[19.788459] (-) TimerEvent: {}
+[19.889042] (-) TimerEvent: {}
+[19.989578] (-) TimerEvent: {}
+[20.090257] (-) TimerEvent: {}
+[20.190638] (-) TimerEvent: {}
+[20.198543] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[20.209237] (turtlesim) CommandEnded: {'returncode': 0}
+[20.290782] (-) TimerEvent: {}
+[20.327964] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[20.334246] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim'], 'cwd': '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'starmaninja'), ('SSH_AGENT_PID', '1259'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/starmaninja'), ('OLDPWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1036'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/starmaninja/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'starmaninja'), ('JOURNAL_STREAM', '8:31977'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'starmaninja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/home/starmaninja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/starmaninja/.local/bin'), ('SESSION_MANAGER', 'local/starmaninja-VirtualBox:@/tmp/.ICE-unix/1313,unix/starmaninja-VirtualBox:/tmp/.ICE-unix/1313'), ('INVOCATION_ID', '89f8e4eb9f6946ba9c68579b8ca5ee0b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a6f0a8bc_902e_459f_a67e_0bb97ea46f65'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3652e9813cc9c56dd648c0dc61780b2c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[20.340028] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.340179] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[20.340319] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim\n'}
+[20.340485] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg\n'}
+[20.340605] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[20.340724] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[20.340888] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[20.341035] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[20.341152] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[20.341328] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[20.341439] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[20.341557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[20.341665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[20.341784] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[20.341891] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[20.342063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.342178] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv\n'}
+[20.342293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[20.342387] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[20.342502] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[20.342677] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[20.342828] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[20.342945] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[20.343059] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[20.343156] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[20.343227] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[20.343318] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[20.343414] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[20.343486] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[20.343620] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[20.343683] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[20.343792] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[20.343974] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[20.344074] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[20.344186] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[20.344373] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[20.344571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[20.344686] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[20.344799] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[20.344864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[20.344926] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[20.345066] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[20.345288] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[20.345475] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action\n'}
+[20.345681] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[20.345894] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[20.346005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[20.346106] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[20.346169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[20.346239] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[20.346337] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[20.346569] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[20.346709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[20.346778] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[20.346840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim\n'}
+[20.346956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg\n'}
+[20.347017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[20.347109] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[20.347172] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[20.347234] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.347302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv\n'}
+[20.347359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[20.347439] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[20.347614] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[20.347790] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[20.347954] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[20.348115] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[20.348325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action\n'}
+[20.348415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[20.348498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[20.348583] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[20.348658] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.348722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim\n'}
+[20.348862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg\n'}
+[20.348942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[20.349005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.349209] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.349388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[20.349584] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.349791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv\n'}
+[20.349960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[20.350118] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.350283] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.350441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.350626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.350775] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.350972] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[20.351138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action\n'}
+[20.351285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[20.351456] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.351598] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[20.351763] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.351907] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.352075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim\n'}
+[20.352218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg\n'}
+[20.352350] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.352530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[20.352633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[20.352697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[20.352809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[20.352873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[20.352934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv\n'}
+[20.353017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[20.353139] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[20.353202] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[20.353262] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[20.353408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[20.353492] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[20.353615] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[20.353774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[20.353845] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[20.353911] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[20.353969] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[20.354028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action\n'}
+[20.354110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[20.354242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[20.354396] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[20.354578] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[20.354646] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.354711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[20.354776] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[20.354831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim\n'}
+[20.354892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg\n'}
+[20.355002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[20.355068] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[20.355130] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[20.355190] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[20.355245] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[20.355335] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[20.355397] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[20.355475] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[20.355547] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[20.355609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv\n'}
+[20.355671] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[20.355757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[20.355860] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[20.355930] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[20.356063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[20.356128] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[20.356209] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[20.356309] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[20.356446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[20.356514] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[20.356573] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[20.356642] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[20.356698] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[20.356756] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[20.356862] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[20.356925] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[20.356994] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[20.357054] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[20.357111] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[20.357169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[20.357280] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[20.357419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action\n'}
+[20.357487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[20.357556] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[20.357618] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[20.357674] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[20.357732] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[20.357836] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim\n'}
+[20.357934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg\n'}
+[20.357994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[20.358064] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.358128] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.358185] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[20.358260] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[20.358401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv\n'}
+[20.358467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[20.358528] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[20.358589] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[20.358649] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.358753] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.358836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[20.358898] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.358966] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[20.359027] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.359086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[20.359146] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.359255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action\n'}
+[20.359398] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[20.359463] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[20.359530] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.359592] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[20.359657] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.359717] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[20.359781] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[20.359842] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[20.359910] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[20.359970] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages//turtlesim.egg-info\n'}
+[20.360081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages//turtlesim.egg-info/PKG-INFO\n'}
+[20.360173] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages//turtlesim.egg-info/SOURCES.txt\n'}
+[20.360236] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages//turtlesim.egg-info/dependency_links.txt\n'}
+[20.360298] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages//turtlesim.egg-info/top_level.txt\n'}
+[20.360373] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim\n'}
+[20.360466] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[20.360563] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[20.360655] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[20.360769] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[20.360855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[20.360917] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[20.360989] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.361052] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.361114] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[20.361176] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.361243] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[20.361300] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[20.361389] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[20.361448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[20.361509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[20.361578] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[20.361639] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[20.361700] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[20.361760] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[20.361828] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[20.361889] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[20.361951] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[20.362015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[20.362086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[20.362149] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[20.362210] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[20.362271] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[20.362341] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.362404] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/libturtlesim__python.so\n'}
+[20.362465] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.391164] (-) TimerEvent: {}
+[20.393417] (turtlesim) StdoutLine: {'line': b"Listing '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim'...\n"}
+[20.393546] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py'...\n"}
+[20.393618] (turtlesim) StdoutLine: {'line': b"Listing '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action'...\n"}
+[20.393670] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py'...\n"}
+[20.393718] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[20.393766] (turtlesim) StdoutLine: {'line': b"Listing '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg'...\n"}
+[20.393812] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py'...\n"}
+[20.393860] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py'...\n"}
+[20.393907] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py'...\n"}
+[20.393959] (turtlesim) StdoutLine: {'line': b"Listing '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv'...\n"}
+[20.394007] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py'...\n"}
+[20.394054] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py'...\n"}
+[20.394100] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py'...\n"}
+[20.394148] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py'...\n"}
+[20.394196] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[20.394243] (turtlesim) StdoutLine: {'line': b"Compiling '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[20.396648] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.396977] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.397230] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.397558] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.397810] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.398123] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.398258] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[20.398412] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/libturtlesim__python.so" to ""\n'}
+[20.398552] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[20.398673] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[20.398781] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[20.398892] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[20.399088] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[20.399233] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[20.399388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[20.399491] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[20.399612] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[20.399753] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[20.399834] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[20.399920] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[20.400095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[20.400200] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[20.400280] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[20.400388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[20.400463] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[20.400555] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[20.400630] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[20.400713] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[20.400901] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[20.401027] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[20.401144] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[20.401198] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[20.401248] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[20.401295] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[20.401362] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[20.406505] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[20.406627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[20.407648] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[20.407774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[20.410326] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[20.410411] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[20.412699] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[20.412886] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images\n'}
+[20.412998] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[20.413140] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[20.413377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[20.413523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[20.413619] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[20.413715] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[20.413793] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[20.413859] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/launch\n'}
+[20.413943] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[20.414123] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[20.414191] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[20.414325] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[20.414411] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[20.414477] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[20.414583] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[20.414647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[20.414752] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[20.414835] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[20.414908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[20.415039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[20.415137] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[20.415225] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[20.415343] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.415489] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.415549] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.415640] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[20.415738] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.415824] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[20.415938] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.416157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.416289] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[20.416446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.416561] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[20.416637] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.416687] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.416735] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.416782] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.417637] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.417741] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.417810] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[20.417873] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[20.417953] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[20.419252] (turtlesim) CommandEnded: {'returncode': 0}
+[20.491379] (-) TimerEvent: {}
+[20.557777] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[20.558333] (-) EventReactorShutdown: {}

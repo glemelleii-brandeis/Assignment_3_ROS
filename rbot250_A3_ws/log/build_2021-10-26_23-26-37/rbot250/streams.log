@@ -1,0 +1,31 @@
+[0.012s] Invoking command in '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250 -- -j4 -l4
+[0.027s] -- Found ament_cmake: 1.1.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.087s] -- Found geometry_msgs: 3.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)
+[0.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.105s] -- Found rosidl_adapter: 2.5.0 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.198s] -- Found rclcpp: 13.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.229s] -- Found rmw_implementation_cmake: 5.0.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.231s] -- Found rmw_cyclonedds_cpp: 0.24.0 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+[0.245s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.351s] -- Found rclpy: 3.0.1 (/opt/ros/rolling/share/rclpy/cmake)
+[0.351s] -- Found sensor_msgs: 3.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)
+[0.410s] -- Found trajectory_msgs: 3.0.0 (/opt/ros/rolling/share/trajectory_msgs/cmake)
+[0.513s] -- Configuring done
+[0.514s] CMake Error at CMakeLists.txt:17 (add_executable):
+[0.514s]   Cannot find source file:
+[0.514s] 
+[0.515s]     src/assignment_3.cpp
+[0.515s] 
+[0.515s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.515s]   .hpp .hxx .in .txx
+[0.515s] 
+[0.515s] 
+[0.515s] CMake Error at CMakeLists.txt:17 (add_executable):
+[0.515s]   No SOURCES given to target: t_publisher
+[0.515s] 
+[0.515s] 
+[0.515s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.517s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.520s] Invoked command in '/home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/starmaninja/Desktop/RBOT-250/Assignments/RBOT-250_Assignment-3/Assignment_3_ROS/rbot250_A3_ws/build/rbot250 -- -j4 -l4
