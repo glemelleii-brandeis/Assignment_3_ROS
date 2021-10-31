@@ -30,6 +30,8 @@ class FrameListener(Node):
                 "elbow",
                 "base",
                 now)
+            self.get_logger().info(
+                f'Successfully created the transformation!')
         except TransformException as ex:
             self.get_logger().info(
                 f'Could not transform base to elbow: {ex}')
